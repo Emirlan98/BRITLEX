@@ -1,0 +1,33 @@
+@import "vars";
+
+.header{
+	padding: 16px 0;
+
+&__inner{
+	display: flex;
+	justify-content: space-between;
+   align-items: center;
+}
+
+&__nav-toggle{
+   display: none;
+}
+&__rectangle{
+	border: 2px solid #263238;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 16px 49px;
+	margin-top: 23px;
+	height: 62px;
+	width: 197px;
+	& span {
+		font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 27px;
+color: #000000;
+
+	}
+}
+}

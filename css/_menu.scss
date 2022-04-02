@@ -1,0 +1,25 @@
+@import "vars";
+
+.menu{
+	display: flex;
+	margin-top: 32px;
+	margin-right: 41px;
+	list-style: none;
+
+	
+	&__item + &__item {
+		margin-left: 29px;
+	}
+
+	&__link{
+		font-family:$main-font;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+		color: $accent;
+		text-decoration: none;
+
+
+	}
+}
