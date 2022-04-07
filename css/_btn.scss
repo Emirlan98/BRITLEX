@@ -1,0 +1,15 @@
+@import "vars";
+
+.btn{
+
+	width: 218px;
+   height: 60px;
+	background-color:$accent;
+   border: 1px solid $accent  ;
+	border-radius: 5px;
+	text-decoration: none;
+	background-size: 100px;
+	color: $lidht;
+	padding: 16px 63px;
+	font-size: 20px;
+}

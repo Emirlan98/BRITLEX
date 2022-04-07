@@ -1,0 +1,73 @@
+@import "vars";
+
+.intro{
+	
+		display:flex;
+		justify-content: space-between;
+   
+	&__light{
+
+		&::before{
+			position: absolute;
+			width: 100px;
+			height: 100px;
+			left: 553px;
+			top: 318px;
+			background-image: url("../images/light-img.svg");
+			transform: rotate(359 deg);
+			content: "";
+			
+		}
+	}
+		
+	&__text{
+		margin-top: 46px;
+
+		
+
+	& h1{
+		
+		font-family:$main-font;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 64px;
+		line-height: 80px;
+		color: $dark;
+		}
+	& p{ 
+
+		font-family:$main-font;
+		font-style: normal;
+		font-size: 24px;
+		line-height: 36px;
+		font-weight:400;
+		color: $secondary-accent;
+		margin-top: -13px;
+		margin-bottom: 94px;
+		max-width: 521px;
+
+		   }
+		}
+	
+	&__img{
+
+		margin-top: 49px;
+		margin-right: 4px;
+		
+	}
+
+
+
+	&__link{
+		border-radius: 15px;
+		margin-top: 60px;
+		padding: 32px 118px;
+		font-family:$main-font;
+		font-style: normal;
+		color:$lidht;
+		font-weight: 400;
+      font-size: 36px;
+
+	}
+
+}
